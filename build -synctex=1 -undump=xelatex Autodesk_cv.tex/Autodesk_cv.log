@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.3.22)  22 MAR 2026 22:13
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.3.22)  22 MAR 2026 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -58,12 +58,13 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 494 strings out of 402986
- 9419 string characters out of 5448503
+ 495 strings out of 402986
+ 9707 string characters out of 5448503
  437385 words of memory out of 5000000
  29247 multiletter control sequences out of 15000+600000
  627769 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  35i,5n,38p,255b,194s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Autodesk_cv.pdf (3 pages).
+Output written on C:\Users\m3bla\Documents\repos\MichaelBlack_CV\build -synctex
+=1 -undump=xelatex Autodesk_cv.tex\Autodesk_cv.pdf (3 pages).
