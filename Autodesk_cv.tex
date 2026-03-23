@@ -1,0 +1,41 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt,a4paper]{article}
+
+% Page margins
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\textwidth}{16cm}
+\setlength{\topmargin}{-1cm}
+\setlength{\textheight}{24cm}
+
+% Basic font and spacing
+\renewcommand{\baselinestretch}{1.1}
+\setlength{\parskip}{0.5em}
+
+% Header info
+\newcommand{\name}[1]{\begin{center}\LARGE \textbf{#1}\end{center}}
+\newcommand{\position}[1]{\begin{center}#1\end{center}}
+\newcommand{\contact}[3]{\begin{center}#1 \quad | \quad #2 \quad | \quad #3\end{center}}
+\newcommand{\quoteText}[1]{\begin{center}\textit{#1}\end{center}}
+
+% Section commands
+\newcommand{\cvsection}[1]{\vspace{1em}\noindent\textbf{\large #1}\vspace{0.5em}\hrule\vspace{0.5em}}
+\newcommand{\cvsubsection}[1]{\vspace{0.5em}\noindent\textbf{#1}\vspace{0.3em}}
+\newcommand{\cvitem}[1]{\item #1}
+
+\begin{document}
+
+\name{Michael Black}
+\position{Engineering Software Developer / Business Analyst}
+\contact{Montreal, QC, Canada}{XXX-XXX-XXXX}{your.email@gmail.com}
+\quoteText{Civil engineer focused on improving how teams use engineering software through better workflows, tools, and guidance.}
+
+\input{cv/profile.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/education.tex}
+\input{cv/tools.tex}
+
+\end{document}
